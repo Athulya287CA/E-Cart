@@ -4,6 +4,7 @@ import Header from '../Components/Header'
 import { useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { addToWishlist } from '../Redux/slice/wishListSlice'
+import { addToCart } from '../Redux/slice/cartSlice'
 
 
 function View() {
